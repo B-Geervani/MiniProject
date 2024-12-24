@@ -2,52 +2,52 @@
 <testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-20T20:01:33 IST" name="Default suite" finished-at="2024-12-20T20:01:53 IST" duration-ms="19415">
+  <suite started-at="2024-12-23T21:06:01 IST" name="Suite" finished-at="2024-12-23T21:06:18 IST" duration-ms="17549">
     <groups>
     </groups>
-    <test started-at="2024-12-20T20:01:33 IST" name="Default test" finished-at="2024-12-20T20:01:53 IST" duration-ms="19415">
+    <test started-at="2024-12-23T21:06:01 IST" name="Test" finished-at="2024-12-23T21:06:18 IST" duration-ms="17549">
       <class name="com.RestApi.Contactlist">
-        <test-method signature="AddUser()[pri:1, instance:com.RestApi.Contactlist@77fbd92c]" started-at="2024-12-20T20:01:33 IST" name="AddUser" finished-at="2024-12-20T20:01:39 IST" duration-ms="6072" status="PASS">
+        <test-method signature="AddUser()[pri:1, instance:com.RestApi.Contactlist@5276d6ee]" started-at="2024-12-23T21:06:01 IST" name="AddUser" finished-at="2024-12-23T21:06:06 IST" duration-ms="5236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddUser -->
-        <test-method signature="UserProfile()[pri:2, instance:com.RestApi.Contactlist@77fbd92c]" started-at="2024-12-20T20:01:39 IST" name="UserProfile" finished-at="2024-12-20T20:01:41 IST" depends-on-methods="com.RestApi.Contactlist.AddUser" duration-ms="1206" status="PASS">
+        <test-method signature="UserProfile()[pri:2, instance:com.RestApi.Contactlist@5276d6ee]" started-at="2024-12-23T21:06:06 IST" name="UserProfile" finished-at="2024-12-23T21:06:07 IST" depends-on-methods="com.RestApi.Contactlist.AddUser" duration-ms="1331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserProfile -->
-        <test-method signature="UpdateUser()[pri:3, instance:com.RestApi.Contactlist@77fbd92c]" started-at="2024-12-20T20:01:41 IST" name="UpdateUser" finished-at="2024-12-20T20:01:42 IST" duration-ms="1759" status="PASS">
+        <test-method signature="UpdateUser()[pri:3, instance:com.RestApi.Contactlist@5276d6ee]" started-at="2024-12-23T21:06:07 IST" name="UpdateUser" finished-at="2024-12-23T21:06:09 IST" duration-ms="1388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UpdateUser -->
-        <test-method signature="LogInUser()[pri:4, instance:com.RestApi.Contactlist@77fbd92c]" started-at="2024-12-20T20:01:42 IST" name="LogInUser" finished-at="2024-12-20T20:01:45 IST" duration-ms="2243" status="PASS">
+        <test-method signature="LogInUser()[pri:4, instance:com.RestApi.Contactlist@5276d6ee]" started-at="2024-12-23T21:06:09 IST" name="LogInUser" finished-at="2024-12-23T21:06:10 IST" duration-ms="1373" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogInUser -->
-        <test-method signature="AddContact()[pri:5, instance:com.RestApi.Contactlist@77fbd92c]" started-at="2024-12-20T20:01:45 IST" name="AddContact" finished-at="2024-12-20T20:01:46 IST" depends-on-methods="com.RestApi.Contactlist.LogInUser" duration-ms="1239" status="PASS">
+        <test-method signature="AddContact()[pri:5, instance:com.RestApi.Contactlist@5276d6ee]" started-at="2024-12-23T21:06:10 IST" name="AddContact" finished-at="2024-12-23T21:06:11 IST" depends-on-methods="com.RestApi.Contactlist.LogInUser" duration-ms="1399" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddContact -->
-        <test-method signature="GetContactList()[pri:6, instance:com.RestApi.Contactlist@77fbd92c]" started-at="2024-12-20T20:01:46 IST" name="GetContactList" finished-at="2024-12-20T20:01:47 IST" duration-ms="1211" status="PASS">
+        <test-method signature="GetContactList()[pri:6, instance:com.RestApi.Contactlist@5276d6ee]" started-at="2024-12-23T21:06:11 IST" name="GetContactList" finished-at="2024-12-23T21:06:13 IST" duration-ms="1281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetContactList -->
-        <test-method signature="GetContact()[pri:7, instance:com.RestApi.Contactlist@77fbd92c]" started-at="2024-12-20T20:01:47 IST" name="GetContact" finished-at="2024-12-20T20:01:48 IST" duration-ms="1257" status="PASS">
+        <test-method signature="GetContact()[pri:7, instance:com.RestApi.Contactlist@5276d6ee]" started-at="2024-12-23T21:06:13 IST" name="GetContact" finished-at="2024-12-23T21:06:14 IST" duration-ms="1400" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetContact -->
-        <test-method signature="UpdateContact()[pri:8, instance:com.RestApi.Contactlist@77fbd92c]" started-at="2024-12-20T20:01:48 IST" name="UpdateContact" finished-at="2024-12-20T20:01:50 IST" duration-ms="1241" status="PASS">
+        <test-method signature="UpdateContact()[pri:8, instance:com.RestApi.Contactlist@5276d6ee]" started-at="2024-12-23T21:06:14 IST" name="UpdateContact" finished-at="2024-12-23T21:06:15 IST" duration-ms="1336" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UpdateContact -->
-        <test-method signature="Updatecontactpartial()[pri:9, instance:com.RestApi.Contactlist@77fbd92c]" started-at="2024-12-20T20:01:50 IST" name="Updatecontactpartial" finished-at="2024-12-20T20:01:51 IST" duration-ms="1798" status="PASS">
+        <test-method signature="Updatecontactpartial()[pri:9, instance:com.RestApi.Contactlist@5276d6ee]" started-at="2024-12-23T21:06:15 IST" name="Updatecontactpartial" finished-at="2024-12-23T21:06:17 IST" duration-ms="1341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Updatecontactpartial -->
-        <test-method signature="LogoutUser()[pri:10, instance:com.RestApi.Contactlist@77fbd92c]" started-at="2024-12-20T20:01:51 IST" name="LogoutUser" finished-at="2024-12-20T20:01:53 IST" duration-ms="1208" status="PASS">
+        <test-method signature="LogoutUser()[pri:10, instance:com.RestApi.Contactlist@5276d6ee]" started-at="2024-12-23T21:06:17 IST" name="LogoutUser" finished-at="2024-12-23T21:06:18 IST" duration-ms="1318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogoutUser -->
       </class> <!-- com.RestApi.Contactlist -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

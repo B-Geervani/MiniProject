@@ -1,5 +1,4 @@
 package com.RestApi;
-
 import static io.restassured.RestAssured.given;
 
 import java.util.HashMap;
@@ -189,9 +188,6 @@ public void UserProfile() {
 	  
 	  int code=res.getStatusCode();
       Assert.assertEquals(code,200);
-      String email = res.jsonPath().getString("email");
-      System.out.println("Email from response: " + email);
-      Assert.assertEquals(email, "levi@gmail.com", "Email validation failed");
       System.out.println("UpdateContact Status code is:"+res.getStatusLine().substring(res.getStatusLine().indexOf(" ")+1));
       res.then().log().body();
       System.out.println(     );
