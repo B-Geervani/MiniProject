@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-23T22:47:35 IST" name="Default suite" finished-at="2024-12-23T22:48:32 IST" duration-ms="56280">
+    <groups>
+    </groups>
+    <test started-at="2024-12-23T22:47:35 IST" name="Default test" finished-at="2024-12-23T22:48:32 IST" duration-ms="56280">
+      <class name="com.Testcases.DemoblazeTestcase">
+        <test-method is-config="true" signature="LanuchApp()[pri:0, instance:com.Testcases.DemoblazeTestcase@5bf0d49]" started-at="2024-12-23T22:47:35 IST" name="LanuchApp" finished-at="2024-12-23T22:47:42 IST" duration-ms="6994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LanuchApp -->
+        <test-method signature="VerifySignUp()[pri:1, instance:com.Testcases.DemoblazeTestcase@5bf0d49]" started-at="2024-12-23T22:47:42 IST" name="VerifySignUp" finished-at="2024-12-23T22:47:45 IST" duration-ms="2791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySignUp -->
+        <test-method signature="VerifyLogin()[pri:2, instance:com.Testcases.DemoblazeTestcase@5bf0d49]" started-at="2024-12-23T22:47:45 IST" name="VerifyLogin" finished-at="2024-12-23T22:47:58 IST" duration-ms="13031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method signature="displayCategories()[pri:3, instance:com.Testcases.DemoblazeTestcase@5bf0d49]" started-at="2024-12-23T22:47:58 IST" name="displayCategories" finished-at="2024-12-23T22:48:00 IST" duration-ms="1971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayCategories -->
+        <test-method signature="selectLaptopAndAddToCart()[pri:4, instance:com.Testcases.DemoblazeTestcase@5bf0d49]" started-at="2024-12-23T22:48:00 IST" name="selectLaptopAndAddToCart" finished-at="2024-12-23T22:48:09 IST" duration-ms="9071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectLaptopAndAddToCart -->
+        <test-method signature="selectMonitorsAndAddToCart()[pri:5, instance:com.Testcases.DemoblazeTestcase@5bf0d49]" started-at="2024-12-23T22:48:09 IST" name="selectMonitorsAndAddToCart" finished-at="2024-12-23T22:48:15 IST" duration-ms="5931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMonitorsAndAddToCart -->
+        <test-method signature="clickOnCart()[pri:6, instance:com.Testcases.DemoblazeTestcase@5bf0d49]" started-at="2024-12-23T22:48:15 IST" name="clickOnCart" finished-at="2024-12-23T22:48:23 IST" duration-ms="8043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCart -->
+        <test-method signature="OrderDetails()[pri:7, instance:com.Testcases.DemoblazeTestcase@5bf0d49]" started-at="2024-12-23T22:48:23 IST" name="OrderDetails" finished-at="2024-12-23T22:48:31 IST" duration-ms="7946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Testcases.DemoblazeTestcase@5bf0d49]" started-at="2024-12-23T22:48:31 IST" name="tearDown" finished-at="2024-12-23T22:48:32 IST" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Testcases.DemoblazeTestcase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
