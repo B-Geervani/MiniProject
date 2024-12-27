@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "D:\Geervani_seleniumdemos\HRMDomainProject\src\test\resources\testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.listeners.ExtentITestNGListeners"></listener>
+</listeners>
+  <test thread-count="5" name="Excel">
+    <classes>
+      <class name="com.TestCase.HrmTestcase"/>
+    </classes>
+  </test> <!-- Excel -->
+</suite> <!-- Suite -->
